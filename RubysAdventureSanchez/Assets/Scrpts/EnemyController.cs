@@ -22,6 +22,7 @@ public class EnemyController : MonoBehaviour
     private void Update()
     {
         timer -= Time.deltaTime;
+
         if (timer < 0)
         {
             direction = -direction;
@@ -43,5 +44,15 @@ public class EnemyController : MonoBehaviour
         }
 
         rigidbody2D.MovePosition(position);
+
+        void OnCollisionEnter2D(Collision2D other)
+        {
+            RubyController player = other.gameObject.GetComponent<RubyController>();
+
+            if (player != null)
+            {
+                player.ChangeHealth(-1);
+            }
+        }
     }
 }
