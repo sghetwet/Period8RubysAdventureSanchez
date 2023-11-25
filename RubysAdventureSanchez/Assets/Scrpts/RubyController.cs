@@ -5,8 +5,8 @@ using static UnityEditor.Searcher.SearcherWindow.Alignment;
 
 public class RubyController : MonoBehaviour
 {
-    public AudioClip PlayOneShot;
-
+    public AudioClip throwSound;
+    public AudioClip hitSound;
     public float speed = 3.0f;
     
     public int maxHealth = 5;
@@ -118,5 +118,11 @@ public class RubyController : MonoBehaviour
         projectile.Launch(lookDirection, 360);
 
         animator.SetTrigger("Launch");
+
+        PlaySound(throwSound);
+    }
+    public void PkaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
     }
 }
