@@ -20,12 +20,12 @@ public class Projectile : MonoBehaviour
     void Update()
     {
        if(transform.position.magnitude > 1000.0f)
-        {
+       {
             Destroy(gameObject);
-        } 
+       } 
     }
 
-    void OnColliionEnter2D(Collision2D other)
+    void OnCollisionEnter2D(Collision2D other)
     {
         EnemyController e = other.collider.GetComponent<EnemyController>();
         if (e != null)

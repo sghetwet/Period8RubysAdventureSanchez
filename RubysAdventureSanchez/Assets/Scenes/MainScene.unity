@@ -869,11 +869,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4663613342824256340, guid: 555f92563c9dcd9488de5bc91135f9e9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.5
+      value: -0.9
       objectReference: {fileID: 0}
     - target: {fileID: 4663613342824256340, guid: 555f92563c9dcd9488de5bc91135f9e9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -14.9
+      value: -13.8
       objectReference: {fileID: 0}
     - target: {fileID: 4663613342824256340, guid: 555f92563c9dcd9488de5bc91135f9e9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -946,7 +946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  vertical: 1
+  vertical: 0
   changeTime: 3
   smokeEffect: {fileID: 0}
 --- !u!4 &237959088 stripped
@@ -2903,7 +2903,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  vertical: 1
+  vertical: 0
   changeTime: 3
   smokeEffect: {fileID: 0}
 --- !u!1 &869805889 stripped
@@ -3234,7 +3234,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -3446,7 +3446,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  vertical: 1
+  vertical: 0
   changeTime: 3
   smokeEffect: {fileID: 0}
 --- !u!1 &1001894568
@@ -25487,7 +25487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  vertical: 1
+  vertical: 0
   changeTime: 3
   smokeEffect: {fileID: 0}
 --- !u!4 &1488930668 stripped

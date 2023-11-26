@@ -11,11 +11,9 @@ public class EnemyController : MonoBehaviour
     public ParticleSystem smokeEffect;
 
     Rigidbody2D rigidbody2d;
-
-    bool broken = true;
-
     float timer;
     int direction = 1;
+    bool broken = true;
 
     Animator animator;
 
@@ -29,7 +27,7 @@ public class EnemyController : MonoBehaviour
 
     void Update()
     {
-        if(!broken)
+        if (!broken)
         {
             return;
         }
@@ -52,29 +50,29 @@ public class EnemyController : MonoBehaviour
 
         if (vertical)
         {
-            animator.SetFloat("Move X", 0);
-            animator.SetFloat("Move Y", direction);
             position.y = position.y + Time.deltaTime * speed * direction;
+            animator.SetFloat("Move X", 0);
+            animator.SetFloat("Move Y", direction);           
         }
         else
         {
+            position.x = position.x + Time.deltaTime * speed * direction;
             animator.SetFloat("Move X", direction);
             animator.SetFloat("Move Y", 0);
-            position.x = position.x + Time.deltaTime * speed * direction;
         }
 
         rigidbody2d.MovePosition(position);
     }
     void OnCollisionEnter2D(Collision2D other)
     {
-        RubyController player = other.gameObject.GetComponent<RubyController>();
+        RubyController player = other.gameObject.GetComponent<RubyController >();
 
         if (player != null)
         {
             player.ChangeHealth(-1);
         }
     }
-
+    
     public void Fix()
     {
         broken = false;
