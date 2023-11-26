@@ -4,16 +4,21 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    public float speed;
+    public float speed = 3.0f;
+
     public bool vertical;
+
     public float changeTime = 3.0f;
 
     public ParticleSystem smokeEffect;
 
     Rigidbody2D rigidbody2d;
+
     float timer;
+
     int direction = 1;
-    bool broken = true;
+
+    public bool broken = true;
 
     Animator animator;
 
@@ -72,11 +77,12 @@ public class EnemyController : MonoBehaviour
             player.ChangeHealth(-1);
         }
     }
-    
+
     public void Fix()
     {
         broken = false;
         rigidbody2d.simulated = false;
+        //optional if you added the fixed animation
         animator.SetTrigger("Fixed");
         smokeEffect.Stop();
     }
