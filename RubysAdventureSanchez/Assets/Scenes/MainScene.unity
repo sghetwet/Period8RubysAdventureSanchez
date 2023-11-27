@@ -803,7 +803,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.38827685, y: 0.86094666}
+  m_Offset: {x: -0.3906446, y: 0.8708033}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -814,7 +814,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.930113, y: 1.569628}
+  m_Size: {x: 0.9253775, y: 1.517558}
   m_EdgeRadius: 0
 --- !u!95 &170077482
 Animator:
@@ -851,6 +851,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayTime: 4
   dialogBox: {fileID: 1891740625}
+--- !u!198 &184117776 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 341696934313544475, guid: 555f92563c9dcd9488de5bc91135f9e9, type: 3}
+  m_PrefabInstance: {fileID: 195135792}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &195135792
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -915,7 +920,8 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6665685782042095886, guid: 555f92563c9dcd9488de5bc91135f9e9, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -948,7 +954,7 @@ MonoBehaviour:
   speed: 3
   vertical: 0
   changeTime: 3
-  smokeEffect: {fileID: 0}
+  smokeEffect: {fileID: 184117776}
 --- !u!4 &237959088 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7550799819956078388, guid: 45b3f03348a350742b4de7c4e6abdd66, type: 3}
@@ -1096,6 +1102,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7550799819956078388, guid: 45b3f03348a350742b4de7c4e6abdd66, type: 3}
   m_PrefabInstance: {fileID: 1485831149}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &304134106 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 341696934313544475, guid: 555f92563c9dcd9488de5bc91135f9e9, type: 3}
+  m_PrefabInstance: {fileID: 1721693810}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &305963706
 PrefabInstance:
@@ -1272,6 +1283,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1090728735}
   m_SourcePrefab: {fileID: 100100000, guid: 0ab87476fe7756d4886dc747b230d85c, type: 3}
+--- !u!198 &356828662 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 341696934313544475, guid: 555f92563c9dcd9488de5bc91135f9e9, type: 3}
+  m_PrefabInstance: {fileID: 1671653565}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &362585988
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1943,6 +1959,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!198 &502327949 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 341696934313544475, guid: 555f92563c9dcd9488de5bc91135f9e9, type: 3}
+  m_PrefabInstance: {fileID: 1914645994}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &509127796
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2303,7 +2324,7 @@ GameObject:
   - component: {fileID: 657501230}
   - component: {fileID: 657501232}
   - component: {fileID: 657501231}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2905,7 +2926,7 @@ MonoBehaviour:
   speed: 3
   vertical: 0
   changeTime: 3
-  smokeEffect: {fileID: 0}
+  smokeEffect: {fileID: 1887057204}
 --- !u!1 &869805889 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 851181086069187741, guid: fc853bff9176a3245b22c58ec9320a02, type: 3}
@@ -2960,6 +2981,11 @@ BoxCollider2D:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6363118341606147297, guid: feb486ee9e2f64647a3098d5f5d6a16b, type: 3}
   m_PrefabInstance: {fileID: 1940518240}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &884390362 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 341696934313544475, guid: 555f92563c9dcd9488de5bc91135f9e9, type: 3}
+  m_PrefabInstance: {fileID: 2856693168558480312}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &888544357 stripped
 GameObject:
@@ -3152,7 +3178,7 @@ GameObject:
   - component: {fileID: 917460995}
   - component: {fileID: 917460997}
   - component: {fileID: 917460996}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3417,7 +3443,7 @@ MonoBehaviour:
   speed: 3
   vertical: 1
   changeTime: 3
-  smokeEffect: {fileID: 0}
+  smokeEffect: {fileID: 1568319706}
 --- !u!1 &959572764 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 851181086069187741, guid: fc853bff9176a3245b22c58ec9320a02, type: 3}
@@ -3448,7 +3474,7 @@ MonoBehaviour:
   speed: 3
   vertical: 0
   changeTime: 3
-  smokeEffect: {fileID: 0}
+  smokeEffect: {fileID: 356828662}
 --- !u!1 &1001894568
 GameObject:
   m_ObjectHideFlags: 0
@@ -24467,7 +24493,7 @@ MonoBehaviour:
   speed: 3
   vertical: 1
   changeTime: 3
-  smokeEffect: {fileID: 0}
+  smokeEffect: {fileID: 502327949}
 --- !u!1 &1276815285 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3473809400585297744, guid: 7387b25b570266944b12a83ead398bc2, type: 3}
@@ -24555,7 +24581,7 @@ MonoBehaviour:
   speed: 3
   vertical: 1
   changeTime: 3
-  smokeEffect: {fileID: 0}
+  smokeEffect: {fileID: 304134106}
 --- !u!1001 &1288139928
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25099,7 +25125,8 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6665685782042095886, guid: 555f92563c9dcd9488de5bc91135f9e9, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -25489,7 +25516,7 @@ MonoBehaviour:
   speed: 3
   vertical: 0
   changeTime: 3
-  smokeEffect: {fileID: 0}
+  smokeEffect: {fileID: 884390362}
 --- !u!4 &1488930668 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4663613342824256340, guid: 555f92563c9dcd9488de5bc91135f9e9, type: 3}
@@ -25737,6 +25764,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1647577564}
   m_SourcePrefab: {fileID: 100100000, guid: 7387b25b570266944b12a83ead398bc2, type: 3}
+--- !u!198 &1568319706 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 341696934313544475, guid: 555f92563c9dcd9488de5bc91135f9e9, type: 3}
+  m_PrefabInstance: {fileID: 1969964564}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1572917332
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26148,7 +26180,8 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6665685782042095886, guid: 555f92563c9dcd9488de5bc91135f9e9, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -26372,7 +26405,8 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6665685782042095886, guid: 555f92563c9dcd9488de5bc91135f9e9, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -26958,6 +26992,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.7078774, y: 1.3134642}
   m_EdgeRadius: 0
+--- !u!198 &1887057204 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 341696934313544475, guid: 555f92563c9dcd9488de5bc91135f9e9, type: 3}
+  m_PrefabInstance: {fileID: 1408564585}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1891740625
 GameObject:
   m_ObjectHideFlags: 0
@@ -26970,7 +27009,7 @@ GameObject:
   - component: {fileID: 1891740629}
   - component: {fileID: 1891740628}
   - component: {fileID: 1891740627}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26994,7 +27033,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.32, y: 2.72}
+  m_AnchoredPosition: {x: -0.31999993, y: 2.7200003}
   m_SizeDelta: {x: 300, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1891740627
@@ -27124,7 +27163,8 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6665685782042095886, guid: 555f92563c9dcd9488de5bc91135f9e9, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -27420,7 +27460,8 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6665685782042095886, guid: 555f92563c9dcd9488de5bc91135f9e9, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -28405,7 +28446,8 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6665685782042095886, guid: 555f92563c9dcd9488de5bc91135f9e9, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -28518,6 +28560,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 849267496618048482, guid: b5b0280bd55866c49bdd2c17faba69b7, type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 9b1bb1f450b7d444fa4a8019d13519a7, type: 3}
+    - target: {fileID: 849267496618048482, guid: b5b0280bd55866c49bdd2c17faba69b7, type: 3}
+      propertyPath: throwSound
+      value: 
+      objectReference: {fileID: 8300000, guid: b2edfd40873655249ba0e01a5cf705be, type: 3}
     - target: {fileID: 4496506525768485921, guid: b5b0280bd55866c49bdd2c17faba69b7, type: 3}
       propertyPath: m_Name
       value: Ruby
@@ -28581,6 +28631,10 @@ PrefabInstance:
     - target: {fileID: 5988774362307843767, guid: 6f6ded88255698945b42f9a3165b2555, type: 3}
       propertyPath: m_Name
       value: JambiIdle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988774362307843767, guid: 6f6ded88255698945b42f9a3165b2555, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

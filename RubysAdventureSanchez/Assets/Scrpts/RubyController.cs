@@ -104,22 +104,23 @@ public class RubyController : MonoBehaviour
 
             isInvincible = true;
             invincibleTimer = timeInvincible;
+            PlaySound(hitSound);
         }
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
         UIHealthBar.instance.SetValue(currentHealth/(float)maxHealth);
     }
     void Launch()
     {
-        GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2d.position + Vector2.up * 0.5F, Quaternion.identity);
+        GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2d.position + Vector2.up * 0.5f, Quaternion.identity);
 
         Projectile projectile = projectileObject.GetComponent<Projectile>();
         projectile.Launch(lookDirection, 300);
 
         animator.SetTrigger("Launch");
 
-        PlaySound(throwSound);
+        Playsound(throwSound);
     }
-    public void PkaySound(AudioClip clip)
+    public void Playsound(AudioClip clip)
     {
         audioSource.PlayOneShot(clip);
     }

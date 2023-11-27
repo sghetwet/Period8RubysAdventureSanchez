@@ -18,7 +18,7 @@ public class EnemyController : MonoBehaviour
 
     int direction = 1;
 
-    public bool broken = true;
+    bool broken = true;
 
     Animator animator;
 
